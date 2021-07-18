@@ -1,6 +1,8 @@
 # Quiz-fun 
+## Part of code supplied by instructor
 
-## Test your knowledge with this fun timed quiz! Try to beat your high score or swiftly improve your personal time record! 🤠
+## Purpose:
+Test your knowledge with this fun timed quiz! Try to beat your high score or swiftly improve your personal time record! 🤠
 
 ## Built with:
 * JavaScript
