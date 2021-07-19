@@ -1,5 +1,3 @@
-![skyllarb github io_quiz-fun_](https://user-images.githubusercontent.com/85655122/126088886-51afd1dc-1b3e-4e34-8fca-1780805ba982.png)
-![skyllarb github io_quiz-fun_](https://user-images.githubusercontent.com/85655122/126088893-761bee49-e6de-4aef-b889-9843f52a0d21.png)
 # Quiz-fun 
 ## Part of code supplied by instructor
 
