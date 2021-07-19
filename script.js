@@ -10,6 +10,54 @@ var questions = [
       choices: ["quotes", "curly brackets", "parentheses", "square brackets"],
       answer: "parentheses",
     },
+    {
+        question:
+          "In HTML, you use a button on a form to:",
+        choices: ["run a program", "submit a form to a server", "reset a form to its original state", "all of the above"],
+        answer: "all of the above",
+      },
+      {
+        question:
+          "The introduction of CGI scripts changed the way that the Web was used because:",
+        choices: ["customers acquired the ability to locate and purchase merchandise online", "it allows computer users to access a company's customer support database", "all of the above", "of the ability to maintain customer databases"],
+        answer: "all of the above",
+      },
+      {
+        question:
+          "Inside which HTML element do we put the JavaScript?",
+        choices: ["<js>", "<script>", "<href>", "<div>"],
+        answer: "<script>",
+      },
+      {
+        question:
+          "When you want to use JavaScript to manipulate the currently displayed Web page, the Web page's JavaScript object name is ____.",
+        choices: ["Frame", "Dev tools", "Document", "Window"],
+        answer: "Document",
+      },
+      {
+        question:
+          "How do you write a conditional statement for executing some statements only if 'i' is NOT equal to 5?",
+        choices: ["if (i != 5)", "if (i <> 5)", "if =! 5 then", "if <>5"],
+        answer: "if (i != 5)",
+      },
+      {
+        question:
+          "When you want to use JavaScript to manipulate the browser window, the browser window's JavaScript object name is ____.",
+        choices: ["quotes", "Frame", "Window", "Document"],
+        answer: "Window",
+      },
+      {
+        question:
+          "For defining a spacing property in a style sheet, which of the following is not true",
+        choices: ["position white-space: normal", "curly brackets", "padding-right: 100px", "margin-top: 50px"],
+        answer: "position white-space: normal",
+      },
+      {
+        question: 
+            "A named element in a JavaScript program that is used to store and retrieve data is a ____.",
+        choices: ["string", "variable", "method", "assignment operator"],
+        answer: "variable",
+      },
   ];
   
   var questionEl = document.querySelector("#question");
@@ -20,7 +68,7 @@ var questions = [
   var questionIndex = 0;
   var correctCount = 0;
   
-  var time = 20;
+  var time = 90;
   var intervalId;
   
   function endQuiz() {
